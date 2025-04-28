@@ -5,7 +5,7 @@
   - *Solving the Unsolvable.* Because you only know if it’s unsolvable after you’ve tried, right?
   - *Data Wrangling.* Crafting data pipelines, hacking on LookerStudio, and generally showing data who’s boss.
 - 📫 How to reach me
-  - Blog: Coming Soon – Prepare the coffee
+  - Blog: https://tedlozzo.substack.com/
   - Twitter/X: [@TedLozzo](https://x.com/tedlozzo)
 - ⚡ Fun fact:
 ```python
