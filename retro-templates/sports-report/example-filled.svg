@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" width="800" height="1100">
+  <defs>
+    <style>
+      .masthead { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 44px; font-weight: bold; letter-spacing: 3px; }
+      .tagline { font-family: Arial, sans-serif; font-size: 11px; font-style: italic; }
+      .meta { font-family: Arial, sans-serif; font-size: 10px; }
+      .section-header { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+      .headline-main { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 30px; font-weight: bold; }
+      .headline-small { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
+      .body-text { font-family: Arial, sans-serif; font-size: 10px; }
+      .placeholder { font-family: Arial, sans-serif; font-size: 11px; fill: #2d6a2d; font-style: italic; }
+      .label { font-family: Arial, sans-serif; font-size: 8px; fill: #666; }
+    </style>
+  </defs>
+
+  <!-- Background - clean white with green tint -->
+  <rect width="800" height="1100" fill="#f5f8f5"/>
+
+  <!-- Border - bold sports style -->
+  <rect x="15" y="15" width="770" height="1070" fill="none" stroke="#1a472a" stroke-width="3"/>
+  <rect x="20" y="20" width="760" height="1060" fill="none" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Masthead - dark green -->
+  <rect x="25" y="25" width="750" height="80" fill="#1a472a"/>
+  <text x="400" y="62" text-anchor="middle" class="masthead" fill="#fff">THE SPRINT ARENA</text>
+  <text x="400" y="80" text-anchor="middle" class="tagline" fill="#8fbc8f">Ship it or bench it</text>
+
+  <!-- Meta line -->
+  <rect x="25" y="105" width="750" height="20" fill="#e8f0e8"/>
+  <text x="35" y="118" class="meta">Season 3 | Match Day 8 | March 2026</text>
+  <text x="765" y="118" text-anchor="end" class="meta">Mobile Squad vs The Backlog</text>
+
+  <!-- LIVE badge -->
+  <circle cx="745" cy="55" r="18" fill="#cc0000"/>
+  <text x="745" y="52" text-anchor="middle" fill="#fff" font-size="9" font-family="Arial" font-weight="bold">LIVE</text>
+  <circle cx="745" cy="62" r="3" fill="#ff4444"/>
+
+  <!-- ==================== MATCH REPORT ==================== -->
+  <rect x="25" y="130" width="750" height="260" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="400" y="155" text-anchor="middle" class="section-header" fill="#1a472a">MATCH REPORT</text>
+  <line x1="300" y1="160" x2="500" y2="160" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Score display -->
+  <rect x="200" y="168" width="400" height="40" rx="5" fill="#1a472a"/>
+  <text x="300" y="195" text-anchor="middle" fill="#fff" font-family="Impact" font-size="20">MOBILE SQUAD 7</text>
+  <text x="400" y="195" text-anchor="middle" fill="#8fbc8f" font-family="Impact" font-size="16">vs</text>
+  <text x="500" y="195" text-anchor="middle" fill="#fff" font-family="Impact" font-size="20">3 BACKLOG</text>
+
+  <!-- Match summary (left column) -->
+  <rect x="40" y="220" width="350" height="155" fill="#f0f5f0"/>
+  <text x="215" y="236" text-anchor="middle" class="headline-main" fill="#1a472a">MOBILE SQUAD DOMINATES</text>
+  <text x="215" y="253" text-anchor="middle" class="headline-main" fill="#1a472a">IN 7-3 BLOWOUT</text>
+  <text x="215" y="268" text-anchor="middle" class="headline-small" fill="#333">App Store release 4.2 ships with zero P0 bugs</text>
+  <text x="50" y="282" class="label">Commentary by Coach Elena | Pitch-side reporting by the QA team</text>
+  <text x="50" y="296" class="body-text">In what pundits are calling the best performance of the season,</text>
+  <text x="50" y="307" class="body-text">the Mobile Squad delivered a commanding 7-3 victory against the</text>
+  <text x="50" y="318" class="body-text">Backlog. Seven features shipped, only three carried over. The standout</text>
+  <text x="50" y="329" class="body-text">moment came when the team pulled off a last-minute accessibility fix</text>
+  <text x="50" y="340" class="body-text">stuck in backlog purgatory for two months. "We saw an opening and</text>
+  <text x="50" y="351" class="body-text">we took it," said Diego, who squeezed the fix into a refactoring PR.</text>
+  <text x="50" y="362" class="body-text">The app store submission went through on first attempt - a first this</text>
+  <text x="50" y="373" class="body-text">season. Final whistle blew with CI pipeline, for once, cooperating.</text>
+
+  <!-- Replay diagram (right column) - Momentum Chart -->
+  <rect x="410" y="220" width="350" height="155" fill="#f0f5f0"/>
+  <text x="585" y="238" text-anchor="middle" class="section-header" fill="#1a472a">MOMENTUM CHART</text>
+  <!-- Chart axes -->
+  <line x1="440" y1="340" x2="730" y2="340" stroke="#1a472a" stroke-width="1"/>
+  <line x1="440" y1="260" x2="440" y2="340" stroke="#1a472a" stroke-width="1"/>
+  <!-- Momentum line: up-down-up -->
+  <polyline points="460,320 530,270 600,310 680,255" fill="none" stroke="#cc0000" stroke-width="3"/>
+  <!-- Data points -->
+  <circle cx="460" cy="320" r="4" fill="#1a472a"/>
+  <circle cx="530" cy="270" r="4" fill="#1a472a"/>
+  <circle cx="600" cy="310" r="4" fill="#1a472a"/>
+  <circle cx="680" cy="255" r="4" fill="#cc0000"/>
+  <!-- Labels -->
+  <text x="460" y="355" text-anchor="middle" class="label">Sprint start</text>
+  <text x="460" y="363" text-anchor="middle" class="label">(slow)</text>
+  <text x="530" y="355" text-anchor="middle" class="label">Early</text>
+  <text x="530" y="363" text-anchor="middle" class="label">momentum</text>
+  <text x="600" y="355" text-anchor="middle" class="label">Mid-sprint</text>
+  <text x="600" y="363" text-anchor="middle" class="label">slump</text>
+  <text x="680" y="355" text-anchor="middle" class="label">Final push</text>
+  <text x="680" y="363" text-anchor="middle" class="label">(strong finish)</text>
+  <!-- Y-axis label -->
+  <text x="432" y="300" text-anchor="end" class="label" transform="rotate(-90 432 300)">Energy</text>
+
+  <!-- ==================== SECONDARY ==================== -->
+  <line x1="25" y1="395" x2="775" y2="395" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Highlight Reel -->
+  <rect x="25" y="400" width="245" height="200" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="147" y="420" text-anchor="middle" class="section-header" fill="#1a472a">HIGHLIGHT REEL</text>
+  <rect x="35" y="430" width="225" height="30" fill="#e8f0e8"/>
+  <text x="147" y="450" text-anchor="middle" class="headline-small" fill="#1a472a">Top 3 Plays of the Sprint</text>
+  <rect x="35" y="470" width="225" height="120" fill="#f0f5f0"/>
+  <text x="45" y="485" class="body-text" fill="#333">1. The accessibility fix sneak attack -</text>
+  <text x="45" y="496" class="body-text" fill="#333">Diego buried it in a refactoring PR and</text>
+  <text x="45" y="507" class="body-text" fill="#333">nobody noticed until QA said "wait, did</text>
+  <text x="45" y="518" class="body-text" fill="#333">that button just get VoiceOver support?"</text>
+  <text x="45" y="533" class="body-text" fill="#333">2. Zero crash reports on release day.</text>
+  <text x="45" y="544" class="body-text" fill="#333">ZERO. We checked three times.</text>
+  <text x="45" y="559" class="body-text" fill="#333">3. Priya's animation perf fix - frame</text>
+  <text x="45" y="570" class="body-text" fill="#333">drops went from "noticeable" to</text>
+  <text x="45" y="581" class="body-text" fill="#333">"invisible". The video made Slack rounds.</text>
+
+  <!-- Tactical Analysis -->
+  <rect x="277" y="400" width="245" height="200" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="400" y="420" text-anchor="middle" class="section-header" fill="#1a472a">TACTICAL ANALYSIS</text>
+  <rect x="287" y="430" width="225" height="30" fill="#e8f0e8"/>
+  <text x="400" y="450" text-anchor="middle" class="headline-small" fill="#1a472a">Trunk-Based Strategy Pays Off</text>
+  <rect x="287" y="470" width="225" height="120" fill="#f0f5f0"/>
+  <text x="297" y="485" class="body-text" fill="#333">After two sprints of feature branching</text>
+  <text x="297" y="496" class="body-text" fill="#333">chaos, the switch to trunk-based dev</text>
+  <text x="297" y="507" class="body-text" fill="#333">showed results. Merge conflicts down</text>
+  <text x="297" y="518" class="body-text" fill="#333">70%. Deploy confidence up. The key</text>
+  <text x="297" y="529" class="body-text" fill="#333">tactical shift was daily integration</text>
+  <text x="297" y="540" class="body-text" fill="#333">rather than end-of-sprint megamerges.</text>
+  <text x="297" y="555" class="body-text" fill="#333">Coach Elena's halftime talk about</text>
+  <text x="297" y="566" class="body-text" fill="#333">"small commits, big impact" appears</text>
+  <text x="297" y="577" class="body-text" fill="#333">to have landed with the squad.</text>
+
+  <!-- Player Profile -->
+  <rect x="529" y="400" width="246" height="200" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="652" y="420" text-anchor="middle" class="section-header" fill="#1a472a">PLAYER PROFILE</text>
+  <!-- Player avatar circle -->
+  <circle cx="652" cy="460" r="25" fill="#1a472a"/>
+  <text x="652" y="455" text-anchor="middle" fill="#fff" font-family="Impact" font-size="18">DR</text>
+  <text x="652" y="470" text-anchor="middle" fill="#8fbc8f" font-size="7" font-family="Arial">#10</text>
+  <rect x="539" y="495" width="226" height="95" fill="#f0f5f0"/>
+  <text x="652" y="510" text-anchor="middle" class="headline-small" fill="#1a472a">Diego R. | Midfielder (Full-Stack)</text>
+  <text x="652" y="524" text-anchor="middle" class="label">Commits: 47 | Reviews: 23 | Coffees: infinite</text>
+  <text x="549" y="540" class="body-text" fill="#333">Joined the squad two sprints ago from</text>
+  <text x="549" y="551" class="body-text" fill="#333">the Backend team. Known for sneaking</text>
+  <text x="549" y="562" class="body-text" fill="#333">quality improvements into feature PRs.</text>
+  <text x="549" y="573" class="body-text" fill="#333">Fun fact: has never submitted a PR with</text>
+  <text x="549" y="584" class="body-text" fill="#333">fewer than 3 files. "They're all related."</text>
+
+  <!-- ==================== SMALL SECTIONS ==================== -->
+  <line x1="25" y1="605" x2="775" y2="605" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Injury Report -->
+  <rect x="25" y="610" width="185" height="150" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="117" y="628" text-anchor="middle" class="section-header" fill="#cc0000">INJURY REPORT</text>
+  <rect x="35" y="640" width="165" height="110" fill="#fff0f0"/>
+  <text x="45" y="656" class="body-text" fill="#333">Android build times still</text>
+  <text x="45" y="668" class="body-text" fill="#333">hobbled at 12 minutes.</text>
+  <text x="45" y="684" class="body-text" fill="#333">iOS team waiting on Apple's</text>
+  <text x="45" y="696" class="body-text" fill="#333">review, entering day 5.</text>
+  <text x="45" y="712" class="body-text" fill="#333">One developer pulled</text>
+  <text x="45" y="724" class="body-text" fill="#333">hamstring reaching for a</text>
+  <text x="45" y="736" class="body-text" fill="#333">deadline that moved 3 times.</text>
+
+  <!-- Fan Mail (Kudos) -->
+  <rect x="217" y="610" width="185" height="150" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="310" y="628" text-anchor="middle" class="section-header" fill="#1a472a">FAN MAIL</text>
+  <rect x="227" y="640" width="165" height="110" fill="#f0f5f0"/>
+  <text x="237" y="658" class="body-text" fill="#333">"Dear Priya,</text>
+  <text x="237" y="672" class="body-text" fill="#333">Your animation work is</text>
+  <text x="237" y="684" class="body-text" fill="#333">chef's kiss. The loading</text>
+  <text x="237" y="696" class="body-text" fill="#333">spinner alone deserves an</text>
+  <text x="237" y="708" class="body-text" fill="#333">award.</text>
+  <text x="237" y="726" class="body-text" fill="#333">Signed,</text>
+  <text x="237" y="738" class="body-text" fill="#333">Everyone Who Saw The Demo"</text>
+
+  <!-- Pitch Conditions (Mood) -->
+  <rect x="409" y="610" width="185" height="150" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="502" y="628" text-anchor="middle" class="section-header" fill="#1a472a">PITCH CONDITIONS</text>
+  <text x="502" y="641" text-anchor="middle" class="label">(Team Energy)</text>
+  <rect x="419" y="650" width="165" height="100" fill="#f0f5f0"/>
+  <text x="502" y="672" text-anchor="middle" font-family="Impact" font-size="18" fill="#1a472a">ELECTRIC</text>
+  <text x="429" y="692" class="body-text" fill="#333">Best conditions in three</text>
+  <text x="429" y="704" class="body-text" fill="#333">sprints. The sun is shining,</text>
+  <text x="429" y="716" class="body-text" fill="#333">the builds are green, and</text>
+  <text x="429" y="728" class="body-text" fill="#333">someone brought pastries</text>
+  <text x="429" y="740" class="body-text" fill="#333">to standup.</text>
+
+  <!-- Upcoming Fixtures -->
+  <rect x="601" y="610" width="174" height="150" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="688" y="628" text-anchor="middle" class="section-header" fill="#1a472a">UPCOMING FIXTURES</text>
+  <rect x="611" y="645" width="154" height="105" fill="#f0f5f0"/>
+  <text x="621" y="662" class="body-text" font-weight="bold" fill="#1a472a">Next match:</text>
+  <text x="621" y="676" class="body-text" fill="#333">Push Notifications v2</text>
+  <text x="621" y="694" class="body-text" fill="#333">Scouting reports suggest</text>
+  <text x="621" y="706" class="body-text" fill="#333">this opponent is "trickier</text>
+  <text x="621" y="718" class="body-text" fill="#333">than it looks."</text>
+  <text x="621" y="736" class="body-text" fill="#333">Pregame preparation</text>
+  <text x="621" y="748" class="body-text" fill="#333">already underway.</text>
+
+  <!-- ==================== BOTTOM ==================== -->
+  <line x1="25" y1="765" x2="775" y2="765" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Transfer News -->
+  <rect x="25" y="770" width="370" height="160" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="210" y="790" text-anchor="middle" class="section-header" fill="#1a472a">TRANSFER NEWS</text>
+
+  <!-- New Signing -->
+  <rect x="35" y="800" width="170" height="60" fill="#e8f0e8"/>
+  <text x="120" y="814" text-anchor="middle" class="label" fill="#1a472a">NEW SIGNING</text>
+  <text x="45" y="828" class="body-text" font-weight="bold" fill="#333">Kotlin Multiplatform</text>
+  <text x="45" y="840" class="body-text" fill="#333">Arrived mid-sprint, showing</text>
+  <text x="45" y="851" class="body-text" fill="#333">promise in shared networking.</text>
+
+  <!-- Scouting Report -->
+  <rect x="215" y="800" width="170" height="60" fill="#e8f0e8"/>
+  <text x="300" y="814" text-anchor="middle" class="label" fill="#1a472a">SCOUTING REPORT</text>
+  <text x="225" y="828" class="body-text" fill="#333">Looking for: Senior iOS dev</text>
+  <text x="225" y="840" class="body-text" fill="#333">who doesn't flinch at</text>
+  <text x="225" y="851" class="body-text" fill="#333">SwiftUI edge cases.</text>
+
+  <!-- Loan Deal -->
+  <rect x="35" y="865" width="170" height="55" fill="#f0f5f0"/>
+  <text x="120" y="878" text-anchor="middle" class="label" fill="#1a472a">LOAN DEAL</text>
+  <text x="45" y="892" class="body-text" fill="#333">Borrowed Alex from Backend</text>
+  <text x="45" y="903" class="body-text" fill="#333">for API integration. Will return</text>
+  <text x="45" y="914" class="body-text" fill="#333">slightly caffeinated.</text>
+
+  <!-- Free Agent -->
+  <rect x="215" y="865" width="170" height="55" fill="#f0f5f0"/>
+  <text x="300" y="878" text-anchor="middle" class="label" fill="#1a472a">FREE AGENT</text>
+  <text x="225" y="892" class="body-text" fill="#333">Design system components -</text>
+  <text x="225" y="903" class="body-text" fill="#333">available for any team willing</text>
+  <text x="225" y="914" class="body-text" fill="#333">to adopt them.</text>
+
+  <!-- League Table -->
+  <rect x="402" y="770" width="373" height="160" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="588" y="790" text-anchor="middle" class="section-header" fill="#1a472a">LEAGUE TABLE</text>
+  <text x="588" y="803" text-anchor="middle" class="label">(Sprint Standings)</text>
+  <rect x="412" y="815" width="353" height="105" fill="#f0f5f0"/>
+  <!-- Stats in table layout -->
+  <text x="432" y="835" class="body-text" font-weight="bold" fill="#1a472a">Goals (features shipped):</text>
+  <text x="620" y="835" class="body-text" fill="#333">7</text>
+  <text x="660" y="835" class="body-text" font-weight="bold" fill="#1a472a">Saves (bugs fixed):</text>
+  <text x="745" y="835" class="body-text" fill="#333">11</text>
+  <text x="432" y="852" class="body-text" font-weight="bold" fill="#1a472a">Assists (code reviews):</text>
+  <text x="620" y="852" class="body-text" fill="#333">38</text>
+  <text x="660" y="852" class="body-text" font-weight="bold" fill="#1a472a">Fouls (incidents):</text>
+  <text x="745" y="852" class="body-text" fill="#333">0</text>
+  <text x="432" y="869" class="body-text" font-weight="bold" fill="#1a472a">Yellow cards (warnings):</text>
+  <text x="620" y="869" class="body-text" fill="#333">2</text>
+  <text x="660" y="869" class="body-text" font-weight="bold" fill="#1a472a">Clean sheets:</text>
+  <text x="745" y="869" class="body-text" fill="#333">12/14</text>
+  <!-- Visual bar for crash-free days -->
+  <text x="432" y="892" class="label">Crash-free days</text>
+  <rect x="500" y="884" width="240" height="10" rx="3" fill="#ddd"/>
+  <rect x="500" y="884" width="206" height="10" rx="3" fill="#1a472a"/>
+  <text x="715" y="892" class="label">86%</text>
+
+  <!-- ==================== FOOTER ==================== -->
+  <line x1="25" y1="935" x2="775" y2="935" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Post-Match Interview -->
+  <rect x="25" y="940" width="500" height="55" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="275" y="960" text-anchor="middle" class="section-header" fill="#1a472a">POST-MATCH INTERVIEW</text>
+  <rect x="35" y="970" width="480" height="20" fill="#e8f0e8"/>
+  <text x="275" y="984" text-anchor="middle" class="body-text" fill="#333">"Honestly? I'm just happy the builds were green. Everything else is a bonus." - Elena, post-sprint</text>
+
+  <!-- Mascot Corner -->
+  <rect x="532" y="940" width="243" height="55" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="653" y="956" text-anchor="middle" class="section-header" fill="#1a472a">MASCOT CORNER</text>
+  <!-- Trophy cup with "4.2" -->
+  <!-- Cup body -->
+  <rect x="637" y="966" width="32" height="18" rx="3" fill="#1a472a"/>
+  <!-- Cup handles -->
+  <path d="M637,970 Q627,975 637,982" fill="none" stroke="#1a472a" stroke-width="2"/>
+  <path d="M669,970 Q679,975 669,982" fill="none" stroke="#1a472a" stroke-width="2"/>
+  <!-- Cup base -->
+  <rect x="645" y="984" width="16" height="3" fill="#1a472a"/>
+  <rect x="641" y="987" width="24" height="3" rx="1" fill="#1a472a"/>
+  <!-- "4.2" text on cup -->
+  <text x="653" y="980" text-anchor="middle" fill="#fff" font-family="Arial" font-size="9" font-weight="bold">4.2</text>
+  <!-- Victory lines -->
+  <line x1="623" y1="963" x2="618" y2="958" stroke="#cc0000" stroke-width="1.5"/>
+  <line x1="683" y1="963" x2="688" y2="958" stroke="#cc0000" stroke-width="1.5"/>
+  <line x1="653" y1="962" x2="653" y2="956" stroke="#cc0000" stroke-width="1.5"/>
+
+  <text x="400" y="1015" text-anchor="middle" class="meta">Broadcast from CloudCo Stadium | VAR confirms: the release was clean</text>
+  <text x="765" y="1070" text-anchor="end" class="meta">Page 1 of 1 | Full Time</text>
+
+  <!-- Corner flags -->
+  <polygon points="30,30 50,30 30,50" fill="#1a472a"/>
+  <polygon points="770,30 750,30 770,50" fill="#1a472a"/>
+  <polygon points="30,1070 50,1070 30,1050" fill="#1a472a"/>
+  <polygon points="770,1070 750,1070 770,1050" fill="#1a472a"/>
+
+  <text x="35" y="1035" class="label">Players: Diego, Priya, Alex, Yuki, Tomasz &amp; the Mobile Squad | Coach: Elena | Referee: The Backlog</text>
+</svg>

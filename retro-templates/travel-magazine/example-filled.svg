@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" width="800" height="1100">
+  <defs>
+    <style>
+      .masthead { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; font-size: 42px; font-weight: bold; }
+      .tagline { font-family: 'Palatino Linotype', Palatino, serif; font-size: 12px; font-style: italic; }
+      .meta { font-family: Georgia, serif; font-size: 10px; }
+      .section-header { font-family: 'Palatino Linotype', Palatino, serif; font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; }
+      .headline-small { font-family: 'Palatino Linotype', Palatino, serif; font-size: 13px; font-weight: bold; }
+      .body-text { font-family: Georgia, serif; font-size: 10px; }
+      .placeholder { font-family: Georgia, serif; font-size: 11px; fill: #2a7b6f; font-style: italic; }
+      .label { font-family: Georgia, serif; font-size: 8px; fill: #888; }
+    </style>
+  </defs>
+
+  <!-- Background - warm sand -->
+  <rect width="800" height="1100" fill="#faf5ed"/>
+
+  <!-- Border - subtle coral/teal -->
+  <rect x="15" y="15" width="770" height="1070" fill="none" stroke="#2a7b6f" stroke-width="2"/>
+  <rect x="20" y="20" width="760" height="1060" fill="none" stroke="#2a7b6f" stroke-width="0.5"/>
+
+  <!-- Masthead - teal gradient feel -->
+  <rect x="25" y="25" width="750" height="85" fill="#2a7b6f"/>
+  <text x="400" y="60" text-anchor="middle" class="masthead" fill="#fff">SPRINT DESTINATIONS</text>
+  <text x="400" y="80" text-anchor="middle" class="tagline" fill="#a0d4cc">"Every sprint is a journey worth documenting"</text>
+  <text x="400" y="95" text-anchor="middle" font-family="Georgia" font-size="9" fill="#a0d4cc" font-style="italic">Issue 11 | Sprint 22 | March 2026</text>
+
+  <!-- Meta line -->
+  <rect x="25" y="110" width="750" height="18" fill="#e8f0ee"/>
+  <text x="35" y="122" class="meta">Infra Explorers | CloudCo | March 2026</text>
+  <text x="765" y="122" text-anchor="end" class="meta">Your journey. Your stories.</text>
+
+  <!-- Star rating badge -->
+  <rect x="715" y="35" width="50" height="45" rx="3" fill="#e87461"/>
+  <text x="740" y="55" text-anchor="middle" fill="#fff" font-size="16" font-family="Georgia">****</text>
+  <text x="740" y="67" text-anchor="middle" fill="#fff" font-size="10" font-family="Georgia" opacity="0.5">*</text>
+  <text x="740" y="70" text-anchor="middle" fill="#fff" font-size="7" font-family="Georgia">4/5</text>
+
+  <!-- ==================== DESTINATION REVIEW ==================== -->
+  <rect x="25" y="133" width="750" height="257" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="400" y="158" text-anchor="middle" class="section-header" fill="#2a7b6f">DESTINATION REVIEW</text>
+  <line x1="280" y1="163" x2="520" y2="163" stroke="#e87461" stroke-width="1"/>
+
+  <rect x="40" y="173" width="720" height="50" fill="#f0f7f5" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="400" y="195" text-anchor="middle" font-family="'Palatino Linotype', Palatino, serif" font-size="16" font-weight="bold" fill="#2a7b6f">KUBERNETES: A DESTINATION WORTH THE DETOUR</text>
+  <text x="400" y="215" text-anchor="middle" class="tagline" fill="#555">Our migration journey from bare metal to the cloud, reviewed</text>
+
+  <!-- Review body text -->
+  <rect x="40" y="233" width="350" height="142" fill="#fdf8f0" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="55" y="250" class="body-text" fill="#333">After six months of planning and two sprints of</text>
+  <text x="55" y="263" class="body-text" fill="#333">actual migration, the Infra Explorers have officially</text>
+  <text x="55" y="276" class="body-text" fill="#333">arrived at Kubernetes. The journey was longer than</text>
+  <text x="55" y="289" class="body-text" fill="#333">the travel brochure suggested. Our original itinerary</text>
+  <text x="55" y="302" class="body-text" fill="#333">called for a direct flight, but we ended up taking</text>
+  <text x="55" y="315" class="body-text" fill="#333">several detours through Docker Compose Valley, the</text>
+  <text x="55" y="328" class="body-text" fill="#333">Terraform Desert, and a memorable overnight stay at</text>
+  <text x="55" y="341" class="body-text" fill="#333">Misconfigured Load Balancer Inn. But we're here now.</text>
+  <text x="55" y="354" class="body-text" fill="#333">The clusters are running. The pods are healthy. And</text>
+  <text x="55" y="367" class="body-text" fill="#333">scaling up no longer requires a prayer and a restart script.</text>
+
+  <!-- Mountain illustration area -->
+  <rect x="410" y="233" width="350" height="142" fill="#f0f7f5" stroke="#a0d4cc" stroke-width="0.5"/>
+  <!-- Mountain shape -->
+  <polygon points="485,360 585,255 685,360" fill="none" stroke="#2a7b6f" stroke-width="1.5"/>
+  <!-- Snow cap -->
+  <polygon points="565,275 585,255 605,275" fill="#a0d4cc" stroke="#2a7b6f" stroke-width="0.5"/>
+  <!-- Flag on top -->
+  <line x1="585" y1="255" x2="585" y2="238" stroke="#e87461" stroke-width="1.5"/>
+  <polygon points="585,238 610,244 585,250" fill="#e87461"/>
+  <text x="594" y="247" font-family="Georgia" font-size="7" fill="#fff" font-weight="bold">k8s</text>
+  <!-- Dotted path winding up -->
+  <path d="M 500,355 Q 520,340 510,320 Q 500,300 530,290 Q 560,280 550,270 Q 545,265 570,258 L 583,255" fill="none" stroke="#2a7b6f" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- Small clouds -->
+  <ellipse cx="470" cy="280" rx="20" ry="8" fill="#a0d4cc" opacity="0.3"/>
+  <ellipse cx="700" cy="290" rx="18" ry="7" fill="#a0d4cc" opacity="0.3"/>
+  <!-- Base label -->
+  <text x="500" y="372" font-family="Georgia" font-size="7" fill="#888">bare metal</text>
+  <text x="585" y="248" text-anchor="middle" font-family="Georgia" font-size="0" fill="#e87461"></text>
+
+  <!-- ==================== SECONDARY ==================== -->
+  <line x1="25" y1="395" x2="775" y2="395" stroke="#2a7b6f" stroke-width="0.5"/>
+
+  <!-- Postcards Home -->
+  <rect x="25" y="400" width="245" height="200" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="147" y="420" text-anchor="middle" class="section-header" fill="#2a7b6f">POSTCARDS HOME</text>
+  <!-- Postcard 1 -->
+  <rect x="35" y="432" width="225" height="75" fill="#fdf8f0" stroke="#e87461" stroke-width="0.5"/>
+  <line x1="147" y1="432" x2="147" y2="507" stroke="#e87461" stroke-width="0.5" stroke-dasharray="2"/>
+  <text x="42" y="450" class="body-text" fill="#333">Wish you were here!</text>
+  <text x="42" y="463" class="body-text" fill="#333">The containers are</text>
+  <text x="42" y="476" class="body-text" fill="#333">cozy and the orchestra-</text>
+  <text x="42" y="489" class="body-text" fill="#333">tion is lovely.</text>
+  <text x="210" y="460" text-anchor="middle" class="label">TO:</text>
+  <text x="210" y="480" text-anchor="middle" font-family="Georgia" font-size="10" fill="#2a7b6f" font-weight="bold">Management</text>
+  <!-- Postcard 2 -->
+  <rect x="35" y="515" width="225" height="75" fill="#fdf8f0" stroke="#e87461" stroke-width="0.5"/>
+  <line x1="147" y1="515" x2="147" y2="590" stroke="#e87461" stroke-width="0.5" stroke-dasharray="2"/>
+  <text x="42" y="535" class="body-text" fill="#333">We made it. All services</text>
+  <text x="42" y="548" class="body-text" fill="#333">migrated. Please stop</text>
+  <text x="42" y="561" class="body-text" fill="#333">asking when.</text>
+  <text x="210" y="545" text-anchor="middle" class="label">TO:</text>
+  <text x="210" y="565" text-anchor="middle" font-family="Georgia" font-size="10" fill="#2a7b6f" font-weight="bold">Stakeholders</text>
+
+  <!-- Travel Tips -->
+  <rect x="277" y="400" width="245" height="200" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="400" y="420" text-anchor="middle" class="section-header" fill="#2a7b6f">TRAVEL TIPS</text>
+  <rect x="287" y="432" width="225" height="30" fill="#f0f7f5" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="400" y="452" text-anchor="middle" class="headline-small" fill="#2a7b6f">3 Things We Wish We Knew Before Departing</text>
+  <rect x="287" y="470" width="225" height="120" fill="#fdf8f0" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="295" y="486" class="body-text" fill="#333">1. Kubernetes networking is not</text>
+  <text x="295" y="498" class="body-text" fill="#333">"just like regular networking." It's</text>
+  <text x="295" y="510" class="body-text" fill="#333">networking with opinions.</text>
+  <text x="295" y="526" class="body-text" fill="#333">2. Start with one service, not twelve.</text>
+  <text x="295" y="538" class="body-text" fill="#333">We did twelve. Don't be us.</text>
+  <text x="295" y="554" class="body-text" fill="#333">3. Your Terraform state file is the</text>
+  <text x="295" y="566" class="body-text" fill="#333">most important luggage. Treat it like</text>
+  <text x="295" y="578" class="body-text" fill="#333">your passport. We almost lost ours. Twice.</text>
+
+  <!-- Off the Beaten Path -->
+  <rect x="529" y="400" width="246" height="200" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="652" y="420" text-anchor="middle" class="section-header" fill="#2a7b6f">OFF THE BEATEN PATH</text>
+  <rect x="539" y="432" width="226" height="30" fill="#f0f7f5" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="652" y="452" text-anchor="middle" class="headline-small" fill="#2a7b6f">The Accidental Observability Win</text>
+  <rect x="539" y="470" width="226" height="120" fill="#fdf8f0" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="547" y="486" class="body-text" fill="#333">While setting up k8s, we accidentally</text>
+  <text x="547" y="498" class="body-text" fill="#333">built a better monitoring stack than</text>
+  <text x="547" y="510" class="body-text" fill="#333">we'd had in three years on bare metal.</text>
+  <text x="547" y="526" class="body-text" fill="#333">Prometheus + Grafana came "for free"</text>
+  <text x="547" y="538" class="body-text" fill="#333">with the Helm charts, and suddenly</text>
+  <text x="547" y="550" class="body-text" fill="#333">we could see things we'd been blind</text>
+  <text x="547" y="562" class="body-text" fill="#333">to. The discovery felt like finding</text>
+  <text x="547" y="574" class="body-text" fill="#333">a hidden beach on a detour.</text>
+
+  <!-- ==================== SMALL SECTIONS ==================== -->
+  <line x1="25" y1="605" x2="775" y2="605" stroke="#2a7b6f" stroke-width="0.5"/>
+
+  <!-- Delayed Flights -->
+  <rect x="25" y="610" width="185" height="150" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="117" y="628" text-anchor="middle" class="section-header" fill="#e87461">DELAYED FLIGHTS</text>
+  <rect x="35" y="640" width="165" height="110" fill="#fdf0ee" stroke="#e87461" stroke-width="0.5"/>
+  <text x="42" y="656" class="body-text" fill="#333">The DNS migration took</text>
+  <text x="42" y="668" class="body-text" fill="#333">3x longer than planned.</text>
+  <text x="42" y="680" class="body-text" fill="#333">Turns out "just update</text>
+  <text x="42" y="692" class="body-text" fill="#333">the records" means</text>
+  <text x="42" y="704" class="body-text" fill="#333">something different when</text>
+  <text x="42" y="716" class="body-text" fill="#333">you have 200 subdomains</text>
+  <text x="42" y="728" class="body-text" fill="#333">and nobody documented</text>
+  <text x="42" y="740" class="body-text" fill="#333">half of them.</text>
+
+  <!-- Travel Companions (Kudos) -->
+  <rect x="217" y="610" width="185" height="150" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="310" y="628" text-anchor="middle" class="section-header" fill="#2a7b6f">TRAVEL COMPANIONS</text>
+  <text x="310" y="641" text-anchor="middle" class="label">(Best travel buddy award)</text>
+  <rect x="227" y="650" width="165" height="100" fill="#f0f7f5" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="235" y="668" class="body-text" fill="#333">Best Travel Buddy:</text>
+  <text x="235" y="682" font-family="Georgia" font-size="11" fill="#2a7b6f" font-weight="bold">Anya</text>
+  <text x="235" y="698" class="body-text" fill="#333">Who wrote the migration</text>
+  <text x="235" y="710" class="body-text" fill="#333">runbook that kept us sane.</text>
+  <text x="235" y="722" class="body-text" fill="#333">47 pages long and every</text>
+  <text x="235" y="734" class="body-text" fill="#333">single page was needed.</text>
+
+  <!-- Weather at Destination (Mood) -->
+  <rect x="409" y="610" width="185" height="150" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="502" y="628" text-anchor="middle" class="section-header" fill="#2a7b6f">WEATHER</text>
+  <text x="502" y="641" text-anchor="middle" class="label">(At our destination)</text>
+  <rect x="419" y="650" width="165" height="100" fill="#f0f7f5" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="427" y="668" class="body-text" fill="#333">Clear skies with excellent</text>
+  <text x="427" y="680" class="body-text" fill="#333">visibility. After months of</text>
+  <text x="427" y="692" class="body-text" fill="#333">cloud (pun intended)</text>
+  <text x="427" y="704" class="body-text" fill="#333">migration fog, the team</text>
+  <text x="427" y="716" class="body-text" fill="#333">can finally see the horizon.</text>
+  <text x="427" y="728" class="body-text" fill="#333">Occasional gusts of</text>
+  <text x="427" y="740" class="body-text" fill="#333">exhaustion. Forecast: bright.</text>
+
+  <!-- Next Destination -->
+  <rect x="601" y="610" width="174" height="150" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="688" y="628" text-anchor="middle" class="section-header" fill="#2a7b6f">NEXT DESTINATION</text>
+  <rect x="611" y="645" width="154" height="105" fill="#f0f7f5" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="619" y="665" class="body-text" fill="#333">CI/CD pipeline overhaul.</text>
+  <text x="619" y="679" class="body-text" fill="#333">The current pipeline is</text>
+  <text x="619" y="693" class="body-text" fill="#333">held together by hope</text>
+  <text x="619" y="707" class="body-text" fill="#333">and 3 shell scripts</text>
+  <text x="619" y="721" class="body-text" fill="#333">from 2019. Time to</text>
+  <text x="619" y="735" class="body-text" fill="#333">modernize.</text>
+
+  <!-- ==================== BOTTOM ==================== -->
+  <line x1="25" y1="765" x2="775" y2="765" stroke="#2a7b6f" stroke-width="0.5"/>
+
+  <!-- Packing List -->
+  <rect x="25" y="770" width="370" height="160" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="210" y="790" text-anchor="middle" class="section-header" fill="#2a7b6f">PACKING LIST</text>
+  <text x="210" y="803" text-anchor="middle" class="label">(Resources needed for next trip)</text>
+  <rect x="35" y="810" width="170" height="55" fill="#f0f7f5" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="45" y="830" class="body-text" fill="#333">[ ] Load testing tools</text>
+  <text x="55" y="843" class="label">(before real traffic hits)</text>
+  <text x="45" y="858" class="body-text" fill="#333">[ ] Disaster recovery plan</text>
+  <rect x="215" y="810" width="170" height="55" fill="#f0f7f5" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="225" y="830" class="body-text" fill="#333">[ ] Cost monitoring</text>
+  <text x="235" y="843" class="label">(k8s bills are... surprising)</text>
+  <text x="225" y="858" class="body-text" fill="#333">[ ] On-call training</text>
+  <rect x="35" y="870" width="345" height="50" fill="#fdf0ee" stroke="#e87461" stroke-width="0.5"/>
+  <text x="210" y="888" text-anchor="middle" font-family="Georgia" font-size="9" fill="#e87461" font-weight="bold">TRAVEL INSURANCE:</text>
+  <text x="210" y="902" text-anchor="middle" class="body-text" fill="#333">Current DR plan: "call Anya" -- needs upgrading before real traffic</text>
+
+  <!-- Trip Advisor -->
+  <rect x="402" y="770" width="373" height="160" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="588" y="790" text-anchor="middle" class="section-header" fill="#2a7b6f">TRIP ADVISOR</text>
+  <text x="588" y="803" text-anchor="middle" class="label">(Sprint Rating)</text>
+  <rect x="412" y="815" width="353" height="105" fill="#f0f7f5" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="430" y="838" class="body-text" fill="#333">Planning:</text>
+  <text x="500" y="838" font-family="Georgia" font-size="10" fill="#e87461" font-weight="bold">*** (3/5)</text>
+  <text x="600" y="838" class="body-text" fill="#333">Execution:</text>
+  <text x="670" y="838" font-family="Georgia" font-size="10" fill="#e87461" font-weight="bold">**** (4/5)</text>
+  <text x="430" y="858" class="body-text" fill="#333">Teamwork:</text>
+  <text x="500" y="858" font-family="Georgia" font-size="10" fill="#e87461" font-weight="bold">***** (5/5)</text>
+  <text x="600" y="858" class="body-text" fill="#333">Scenery:</text>
+  <text x="670" y="858" font-family="Georgia" font-size="10" fill="#e87461" font-weight="bold">**** (4/5)</text>
+  <text x="430" y="880" class="body-text" fill="#333">Would travel again:</text>
+  <text x="570" y="880" font-family="Georgia" font-size="10" fill="#2a7b6f" font-style="italic">Yes, but with better maps</text>
+  <line x1="430" y1="890" x2="747" y2="890" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="430" y="908" class="body-text" fill="#333">Overall:</text>
+  <text x="490" y="908" font-family="Georgia" font-size="12" fill="#e87461" font-weight="bold">**** (4/5 stars)</text>
+
+  <!-- ==================== FOOTER ==================== -->
+  <line x1="25" y1="935" x2="775" y2="935" stroke="#2a7b6f" stroke-width="0.5"/>
+
+  <!-- Overheard at the Airport -->
+  <rect x="25" y="940" width="500" height="55" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="275" y="960" text-anchor="middle" class="section-header" fill="#2a7b6f">OVERHEARD AT THE AIRPORT</text>
+  <rect x="35" y="970" width="480" height="20" fill="#fdf8f0" stroke="#a0d4cc" stroke-width="0.5"/>
+  <text x="275" y="984" text-anchor="middle" class="body-text" fill="#333">"I spent three days debugging a networking issue that turned out to be a typo in YAML." - Marcus</text>
+
+  <!-- Photo Album -->
+  <rect x="532" y="940" width="243" height="55" fill="#fff" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="653" y="960" text-anchor="middle" class="section-header" fill="#2a7b6f">PHOTO ALBUM</text>
+  <rect x="542" y="970" width="105" height="20" fill="#fdf0ee" stroke="#e87461" stroke-width="0.5"/>
+  <text x="594" y="983" text-anchor="middle" font-family="Georgia" font-size="7" fill="#333">Before: 3 servers, 1 prayer</text>
+  <rect x="652" y="970" width="113" height="20" fill="#f0f7f5" stroke="#2a7b6f" stroke-width="0.5"/>
+  <text x="708" y="983" text-anchor="middle" font-family="Georgia" font-size="7" fill="#333">After: k8s cluster, 0 prayers</text>
+
+  <text x="400" y="1015" text-anchor="middle" class="meta">Published by CloudCo Travel Press | All journeys are one-way (no rollbacks)</text>
+  <text x="765" y="1070" text-anchor="end" class="meta">Issue 11 | Bon voyage!</text>
+
+  <!-- Corner decorations - leaf/travel style -->
+  <path d="M 30 30 Q 40 30 40 40 Q 30 40 30 30" fill="#2a7b6f" opacity="0.3"/>
+  <path d="M 770 30 Q 760 30 760 40 Q 770 40 770 30" fill="#2a7b6f" opacity="0.3"/>
+  <path d="M 30 1070 Q 40 1070 40 1060 Q 30 1060 30 1070" fill="#2a7b6f" opacity="0.3"/>
+  <path d="M 770 1070 Q 760 1070 760 1060 Q 770 1060 770 1070" fill="#2a7b6f" opacity="0.3"/>
+
+  <text x="35" y="1035" class="label">Travelers: Marcus, Anya, Ravi, Soph, Tyler &amp; the Infra Explorers | Tour Guide: Anya | Passport: Valid for 22 sprints</text>
+</svg>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 780" width="800" height="780">
+  <defs>
+    <style>
+      .masthead { font-family: 'Trebuchet MS', 'Arial Black', sans-serif; font-size: 42px; font-weight: bold; }
+      .tagline { font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-style: italic; }
+      .host { font-family: 'Trebuchet MS', sans-serif; font-size: 12px; }
+      .meta { font-family: 'Trebuchet MS', sans-serif; font-size: 10px; }
+      .section-header { font-family: 'Trebuchet MS', 'Arial Black', sans-serif; font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+      .headline-small { font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; }
+      .body-text { font-family: 'Trebuchet MS', sans-serif; font-size: 10px; }
+      .placeholder { font-family: 'Trebuchet MS', sans-serif; font-size: 11px; fill: #6a3d9a; font-style: italic; }
+      .label { font-family: 'Trebuchet MS', sans-serif; font-size: 8px; fill: #888; }
+    </style>
+  </defs>
+
+  <!-- Background - warm light -->
+  <rect width="800" height="780" fill="#faf8f2"/>
+
+  <!-- Border -->
+  <rect x="15" y="15" width="770" height="750" fill="none" stroke="#2a1a4e" stroke-width="2"/>
+  <rect x="20" y="20" width="760" height="740" fill="none" stroke="#2a1a4e" stroke-width="1"/>
+
+  <!-- Masthead - deep purple/blue -->
+  <rect x="25" y="25" width="750" height="90" fill="#2a1a4e"/>
+  <!-- Stage lights effect -->
+  <circle cx="200" cy="25" r="40" fill="#ffd700" opacity="0.15"/>
+  <circle cx="400" cy="25" r="50" fill="#ffd700" opacity="0.2"/>
+  <circle cx="600" cy="25" r="40" fill="#ffd700" opacity="0.15"/>
+
+  <text x="400" y="62" text-anchor="middle" class="masthead" fill="#ffd700">[YOUR SHOW NAME]</text>
+  <text x="400" y="80" text-anchor="middle" class="host" fill="#d4a8ff">with [Host Name]</text>
+  <text x="400" y="95" text-anchor="middle" class="tagline" fill="#a080c0">"[Your show's catchphrase]"</text>
+
+  <!-- Meta line -->
+  <rect x="25" y="115" width="750" height="20" fill="#f0e8f5"/>
+  <text x="35" y="128" class="meta">Season [X] | Episode [XX] | [Date]</text>
+  <text x="765" y="128" text-anchor="end" class="meta">Filmed before a live studio audience of [Team Name]</text>
+
+  <!-- ON AIR badge -->
+  <rect x="720" y="35" width="48" height="22" rx="3" fill="#cc0000"/>
+  <text x="744" y="50" text-anchor="middle" fill="#fff" font-size="10" font-family="Arial" font-weight="bold">ON AIR</text>
+
+  <!-- ==================== OPENING MONOLOGUE ==================== -->
+  <rect x="25" y="140" width="750" height="250" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="400" y="165" text-anchor="middle" class="section-header" fill="#2a1a4e">OPENING MONOLOGUE</text>
+  <line x1="290" y1="170" x2="510" y2="170" stroke="#ffd700" stroke-width="1"/>
+
+  <rect x="40" y="180" width="720" height="50" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="400" y="210" text-anchor="middle" class="placeholder">[YOUR SPRINT MONOLOGUE - Set the scene, make them laugh, tell it like it is]</text>
+
+  <rect x="40" y="240" width="420" height="135" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="250" y="270" text-anchor="middle" class="placeholder">[The main bit]</text>
+  <text x="250" y="288" text-anchor="middle" class="placeholder">What's the story of this sprint?</text>
+  <text x="250" y="306" text-anchor="middle" class="placeholder">Tell it like a late night host would.</text>
+  <text x="250" y="330" text-anchor="middle" class="label">~100-150 words</text>
+
+  <!-- Applause-o-meter -->
+  <rect x="480" y="240" width="280" height="135" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="620" y="268" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#2a1a4e">APPLAUSE-O-METER</text>
+  <rect x="500" y="280" width="240" height="25" rx="12" fill="#e8e0f0" stroke="#d4a8ff"/>
+  <text x="510" y="296" font-size="8" fill="#666" font-family="Arial">crickets</text>
+  <text x="730" y="296" text-anchor="end" font-size="8" fill="#666" font-family="Arial">standing ovation</text>
+  <text x="620" y="330" text-anchor="middle" class="placeholder">[Mark your sprint's applause level]</text>
+  <text x="620" y="350" text-anchor="middle" class="placeholder">[Draw an arrow on the meter!]</text>
+
+  <!-- ==================== SMALL SECTIONS ==================== -->
+  <line x1="25" y1="395" x2="775" y2="395" stroke="#2a1a4e" stroke-width="0.5"/>
+
+  <!-- Top 5 List -->
+  <rect x="25" y="400" width="185" height="150" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="117" y="418" text-anchor="middle" class="section-header" fill="#2a1a4e">TOP 5 LIST</text>
+  <rect x="35" y="430" width="165" height="110" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="117" y="455" text-anchor="middle" class="placeholder">5. ___________</text>
+  <text x="117" y="470" text-anchor="middle" class="placeholder">4. ___________</text>
+  <text x="117" y="485" text-anchor="middle" class="placeholder">3. ___________</text>
+  <text x="117" y="500" text-anchor="middle" class="placeholder">2. ___________</text>
+  <text x="117" y="515" text-anchor="middle" class="placeholder">1. ___________</text>
+
+  <!-- Shoutout Segment -->
+  <rect x="217" y="400" width="185" height="150" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="310" y="418" text-anchor="middle" class="section-header" fill="#ffd700">SHOUTOUT SEGMENT</text>
+  <text x="310" y="431" text-anchor="middle" class="label">"And the award goes to..."</text>
+  <rect x="227" y="440" width="165" height="100" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="310" y="485" text-anchor="middle" class="placeholder">[Who gets the trophy?]</text>
+
+  <!-- Studio Vibe (Mood) -->
+  <rect x="409" y="400" width="185" height="150" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="502" y="418" text-anchor="middle" class="section-header" fill="#2a1a4e">STUDIO VIBE</text>
+  <text x="502" y="431" text-anchor="middle" class="label">(Audience Energy)</text>
+  <rect x="419" y="440" width="165" height="100" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="502" y="485" text-anchor="middle" class="placeholder">[Hype? Sleepy? Restless?]</text>
+
+  <!-- Coming Up Next Week -->
+  <rect x="601" y="400" width="174" height="150" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="688" y="418" text-anchor="middle" class="section-header" fill="#2a1a4e">NEXT WEEK</text>
+  <rect x="611" y="435" width="154" height="105" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="688" y="485" text-anchor="middle" class="placeholder">[Coming up next...]</text>
+  <text x="688" y="505" text-anchor="middle" class="label">~40 words</text>
+
+  <!-- ==================== BOTTOM - SIMPLIFIED ==================== -->
+  <line x1="25" y1="555" x2="775" y2="555" stroke="#2a1a4e" stroke-width="0.5"/>
+
+  <rect x="25" y="560" width="750" height="25" fill="#f0e8f5"/>
+  <text x="400" y="577" text-anchor="middle" class="section-header" fill="#2a1a4e">COMMERCIAL BREAK &amp; RATINGS</text>
+
+  <!-- Left half - Commercial Break -->
+  <rect x="25" y="585" width="370" height="110" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="210" y="603" text-anchor="middle" class="label">(Needs, wants, and offers)</text>
+  <rect x="35" y="610" width="350" height="75" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="210" y="640" text-anchor="middle" class="placeholder">[AD: Need something? Offering something?]</text>
+  <text x="210" y="658" text-anchor="middle" class="placeholder">[Write a fake ad for it!]</text>
+  <text x="210" y="673" text-anchor="middle" class="label">SPONSORED BY: _______________</text>
+
+  <!-- Right half - Ratings -->
+  <rect x="405" y="585" width="370" height="110" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="590" y="603" text-anchor="middle" class="label">(Sprint as a show)</text>
+  <rect x="415" y="610" width="350" height="75" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="590" y="640" text-anchor="middle" class="placeholder">Plot: ___/10  Acting: ___/10  Pacing: ___/10</text>
+  <text x="590" y="658" text-anchor="middle" class="placeholder">Special Effects: ___/10  Would watch again: Y/N</text>
+
+  <!-- ==================== FOOTER ==================== -->
+  <line x1="25" y1="700" x2="775" y2="700" stroke="#2a1a4e" stroke-width="0.5"/>
+
+  <rect x="25" y="705" width="750" height="45" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="400" y="723" text-anchor="middle" class="section-header" fill="#ffd700">QUOTABLE MOMENT</text>
+  <rect x="35" y="730" width="730" height="15" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="400" y="742" text-anchor="middle" class="placeholder">"[Best quote of the sprint]" - Name</text>
+
+  <text x="400" y="765" text-anchor="middle" class="meta">Produced at [Company] Studios | Canned laughter not included | Tips: Buy your host coffee</text>
+
+  <!-- Star decorations -->
+  <text x="35" y="40" fill="#ffd700" font-size="16">*</text>
+  <text x="50" y="55" fill="#ffd700" font-size="10">*</text>
+  <text x="755" y="750" fill="#ffd700" font-size="16">*</text>
+  <text x="740" y="735" fill="#ffd700" font-size="10">*</text>
+</svg>

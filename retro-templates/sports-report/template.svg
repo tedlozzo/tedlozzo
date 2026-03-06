@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" width="800" height="1100">
+  <defs>
+    <style>
+      .masthead { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 44px; font-weight: bold; letter-spacing: 3px; }
+      .tagline { font-family: Arial, sans-serif; font-size: 11px; font-style: italic; }
+      .meta { font-family: Arial, sans-serif; font-size: 10px; }
+      .section-header { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+      .headline-main { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 30px; font-weight: bold; }
+      .headline-small { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
+      .body-text { font-family: Arial, sans-serif; font-size: 10px; }
+      .placeholder { font-family: Arial, sans-serif; font-size: 11px; fill: #2d6a2d; font-style: italic; }
+      .label { font-family: Arial, sans-serif; font-size: 8px; fill: #666; }
+    </style>
+  </defs>
+
+  <!-- Background - clean white with green tint -->
+  <rect width="800" height="1100" fill="#f5f8f5"/>
+
+  <!-- Border - bold sports style -->
+  <rect x="15" y="15" width="770" height="1070" fill="none" stroke="#1a472a" stroke-width="3"/>
+  <rect x="20" y="20" width="760" height="1060" fill="none" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Masthead - dark green -->
+  <rect x="25" y="25" width="750" height="80" fill="#1a472a"/>
+  <text x="400" y="62" text-anchor="middle" class="masthead" fill="#fff">[YOUR SPORTS REPORT]</text>
+  <text x="400" y="80" text-anchor="middle" class="tagline" fill="#8fbc8f">[Your team war cry]</text>
+
+  <!-- Meta line -->
+  <rect x="25" y="105" width="750" height="20" fill="#e8f0e8"/>
+  <text x="35" y="118" class="meta">Season [X] | Match Day [XX] | [Date]</text>
+  <text x="765" y="118" text-anchor="end" class="meta">[Team Name] vs The Backlog</text>
+
+  <!-- LIVE badge -->
+  <circle cx="745" cy="55" r="18" fill="#cc0000"/>
+  <text x="745" y="52" text-anchor="middle" fill="#fff" font-size="9" font-family="Arial" font-weight="bold">LIVE</text>
+  <circle cx="745" cy="62" r="3" fill="#ff4444"/>
+
+  <!-- ==================== MATCH REPORT ==================== -->
+  <rect x="25" y="130" width="750" height="260" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="400" y="155" text-anchor="middle" class="section-header" fill="#1a472a">MATCH REPORT</text>
+  <line x1="300" y1="160" x2="500" y2="160" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Score display -->
+  <rect x="250" y="168" width="300" height="40" rx="5" fill="#1a472a"/>
+  <text x="330" y="195" text-anchor="middle" fill="#fff" font-family="Impact" font-size="20">[TEAM] ___</text>
+  <text x="400" y="195" text-anchor="middle" fill="#8fbc8f" font-family="Impact" font-size="16">vs</text>
+  <text x="470" y="195" text-anchor="middle" fill="#fff" font-family="Impact" font-size="20">___ BACKLOG</text>
+
+  <rect x="40" y="220" width="350" height="155" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="215" y="250" text-anchor="middle" class="placeholder">[Match summary]</text>
+  <text x="215" y="268" text-anchor="middle" class="placeholder">How did the sprint play out?</text>
+  <text x="215" y="286" text-anchor="middle" class="placeholder">Key moments, turning points, final score</text>
+  <text x="215" y="320" text-anchor="middle" class="label">~100-150 words</text>
+
+  <rect x="410" y="220" width="350" height="155" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="585" y="295" text-anchor="middle" class="placeholder">[Replay Diagram / Highlight Photo]</text>
+  <text x="585" y="315" text-anchor="middle" class="label">Draw the key play!</text>
+
+  <!-- ==================== SECONDARY ==================== -->
+  <line x1="25" y1="395" x2="775" y2="395" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Highlight Reel -->
+  <rect x="25" y="400" width="245" height="200" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="147" y="420" text-anchor="middle" class="section-header" fill="#1a472a">HIGHLIGHT REEL</text>
+  <rect x="35" y="430" width="225" height="30" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="147" y="450" text-anchor="middle" class="placeholder">[Best plays]</text>
+  <rect x="35" y="470" width="225" height="120" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="147" y="520" text-anchor="middle" class="placeholder">[Top moments worth replaying]</text>
+  <text x="147" y="540" text-anchor="middle" class="label">~75 words</text>
+
+  <!-- Tactical Analysis -->
+  <rect x="277" y="400" width="245" height="200" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="400" y="420" text-anchor="middle" class="section-header" fill="#1a472a">TACTICAL ANALYSIS</text>
+  <rect x="287" y="430" width="225" height="30" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="400" y="450" text-anchor="middle" class="placeholder">[Strategy review]</text>
+  <rect x="287" y="470" width="225" height="120" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="400" y="520" text-anchor="middle" class="placeholder">[What worked? What didn't?]</text>
+  <text x="400" y="540" text-anchor="middle" class="label">~75 words</text>
+
+  <!-- Player Profile -->
+  <rect x="529" y="400" width="246" height="200" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="652" y="420" text-anchor="middle" class="section-header" fill="#1a472a">PLAYER PROFILE</text>
+  <circle cx="652" cy="465" r="25" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="652" y="468" text-anchor="middle" class="placeholder">[Photo]</text>
+  <rect x="539" y="500" width="226" height="90" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="652" y="535" text-anchor="middle" class="placeholder">[Spotlight a team member]</text>
+  <text x="652" y="555" text-anchor="middle" class="label">Name, position, stats, fun fact</text>
+
+  <!-- ==================== SMALL SECTIONS ==================== -->
+  <line x1="25" y1="605" x2="775" y2="605" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Injury Report -->
+  <rect x="25" y="610" width="185" height="150" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="117" y="628" text-anchor="middle" class="section-header" fill="#cc0000">INJURY REPORT</text>
+  <rect x="35" y="640" width="165" height="110" fill="#fff0f0" stroke="#cc0000" stroke-dasharray="4"/>
+  <text x="117" y="690" text-anchor="middle" class="placeholder">[Blockers / impediments]</text>
+  <text x="117" y="710" text-anchor="middle" class="label">~40 words</text>
+
+  <!-- Fan Mail (Kudos) -->
+  <rect x="217" y="610" width="185" height="150" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="310" y="628" text-anchor="middle" class="section-header" fill="#1a472a">FAN MAIL</text>
+  <rect x="227" y="640" width="165" height="110" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="310" y="690" text-anchor="middle" class="placeholder">[Shout-out a teammate!]</text>
+  <text x="310" y="710" text-anchor="middle" class="label">~40 words</text>
+
+  <!-- Pitch Conditions (Mood) -->
+  <rect x="409" y="610" width="185" height="150" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="502" y="628" text-anchor="middle" class="section-header" fill="#1a472a">PITCH CONDITIONS</text>
+  <text x="502" y="641" text-anchor="middle" class="label">(Team Energy)</text>
+  <rect x="419" y="650" width="165" height="100" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="502" y="695" text-anchor="middle" class="placeholder">[Electric? Muddy? Perfect?]</text>
+
+  <!-- Upcoming Fixtures -->
+  <rect x="601" y="610" width="174" height="150" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="688" y="628" text-anchor="middle" class="section-header" fill="#1a472a">UPCOMING FIXTURES</text>
+  <rect x="611" y="645" width="154" height="105" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="688" y="695" text-anchor="middle" class="placeholder">[Next sprint matchups]</text>
+  <text x="688" y="715" text-anchor="middle" class="label">~40 words</text>
+
+  <!-- ==================== BOTTOM ==================== -->
+  <line x1="25" y1="765" x2="775" y2="765" stroke="#1a472a" stroke-width="1"/>
+
+  <!-- Transfer News -->
+  <rect x="25" y="770" width="370" height="160" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="210" y="790" text-anchor="middle" class="section-header" fill="#1a472a">TRANSFER NEWS</text>
+  <rect x="35" y="800" width="170" height="60" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="120" y="825" text-anchor="middle" class="placeholder">[NEW SIGNING]</text>
+  <text x="120" y="840" text-anchor="middle" class="label">New tool, process, or person</text>
+  <rect x="215" y="800" width="170" height="60" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="300" y="825" text-anchor="middle" class="placeholder">[SCOUTING REPORT]</text>
+  <text x="300" y="840" text-anchor="middle" class="label">What are we looking for?</text>
+  <rect x="35" y="865" width="170" height="55" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="120" y="895" text-anchor="middle" class="placeholder">[LOAN DEAL]</text>
+  <rect x="215" y="865" width="170" height="55" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="300" y="895" text-anchor="middle" class="placeholder">[FREE AGENT]</text>
+
+  <!-- League Table -->
+  <rect x="402" y="770" width="373" height="160" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="588" y="790" text-anchor="middle" class="section-header" fill="#1a472a">LEAGUE TABLE</text>
+  <text x="588" y="803" text-anchor="middle" class="label">(Sprint Standings)</text>
+  <rect x="412" y="815" width="353" height="105" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="588" y="850" text-anchor="middle" class="placeholder">[Sprint Stats]</text>
+  <text x="588" y="870" text-anchor="middle" class="placeholder">Goals scored (features): ___  Saves (bugs fixed): ___</text>
+  <text x="588" y="890" text-anchor="middle" class="placeholder">Fouls (incidents): ___  Assists (reviews): ___</text>
+
+  <!-- ==================== FOOTER ==================== -->
+  <line x1="25" y1="935" x2="775" y2="935" stroke="#1a472a" stroke-width="1"/>
+
+  <rect x="25" y="940" width="500" height="55" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="275" y="960" text-anchor="middle" class="section-header" fill="#1a472a">POST-MATCH INTERVIEW</text>
+  <rect x="35" y="970" width="480" height="20" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="275" y="985" text-anchor="middle" class="placeholder">"[Most quotable moment]" - Player</text>
+
+  <rect x="532" y="940" width="243" height="55" fill="#fff" stroke="#1a472a" stroke-width="1"/>
+  <text x="653" y="960" text-anchor="middle" class="section-header" fill="#1a472a">MASCOT CORNER</text>
+  <rect x="542" y="970" width="223" height="20" fill="#f0f5f0" stroke="#8fbc8f" stroke-dasharray="4"/>
+  <text x="653" y="985" text-anchor="middle" class="placeholder">[Draw the team mascot!]</text>
+
+  <text x="400" y="1015" text-anchor="middle" class="meta">Broadcast from [Company] Stadium | VAR decisions are final | No refunds on sprint commitments</text>
+  <text x="765" y="1070" text-anchor="end" class="meta">Page 1 of 1 | Full Time</text>
+
+  <!-- Corner flags -->
+  <polygon points="30,30 50,30 30,50" fill="#1a472a"/>
+  <polygon points="770,30 750,30 770,50" fill="#1a472a"/>
+  <polygon points="30,1070 50,1070 30,1050" fill="#1a472a"/>
+  <polygon points="770,1070 750,1070 770,1050" fill="#1a472a"/>
+
+  <text x="35" y="1035" class="label">Players: _________________ | Coach: _________________ | Referee: The Backlog</text>
+</svg>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" width="800" height="1100">
+  <defs>
+    <style>
+      .masthead { font-family: 'Trebuchet MS', 'Arial Black', sans-serif; font-size: 42px; font-weight: bold; }
+      .tagline { font-family: 'Trebuchet MS', sans-serif; font-size: 14px; font-style: italic; }
+      .host { font-family: 'Trebuchet MS', sans-serif; font-size: 12px; }
+      .meta { font-family: 'Trebuchet MS', sans-serif; font-size: 10px; }
+      .section-header { font-family: 'Trebuchet MS', 'Arial Black', sans-serif; font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+      .headline-small { font-family: 'Trebuchet MS', sans-serif; font-size: 13px; font-weight: bold; }
+      .body-text { font-family: 'Trebuchet MS', sans-serif; font-size: 10px; }
+      .placeholder { font-family: 'Trebuchet MS', sans-serif; font-size: 11px; fill: #6a3d9a; font-style: italic; }
+      .label { font-family: 'Trebuchet MS', sans-serif; font-size: 8px; fill: #888; }
+      .filled { font-family: 'Trebuchet MS', sans-serif; font-size: 10px; fill: #2a1a4e; }
+      .filled-title { font-family: 'Trebuchet MS', sans-serif; font-size: 11px; fill: #2a1a4e; font-weight: bold; }
+      .filled-small { font-family: 'Trebuchet MS', sans-serif; font-size: 9px; fill: #2a1a4e; }
+      .filled-list { font-family: 'Trebuchet MS', sans-serif; font-size: 9.5px; fill: #2a1a4e; }
+    </style>
+    <linearGradient id="meterGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4a8ff" stop-opacity="0.3"/>
+      <stop offset="85%" stop-color="#ffd700" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background - warm light -->
+  <rect width="800" height="1100" fill="#faf8f2"/>
+
+  <!-- Border -->
+  <rect x="15" y="15" width="770" height="1070" fill="none" stroke="#2a1a4e" stroke-width="2"/>
+  <rect x="20" y="20" width="760" height="1060" fill="none" stroke="#2a1a4e" stroke-width="1"/>
+
+  <!-- Masthead - deep purple/blue -->
+  <rect x="25" y="25" width="750" height="90" fill="#2a1a4e"/>
+  <!-- Stage lights effect -->
+  <circle cx="200" cy="25" r="40" fill="#ffd700" opacity="0.15"/>
+  <circle cx="400" cy="25" r="50" fill="#ffd700" opacity="0.2"/>
+  <circle cx="600" cy="25" r="40" fill="#ffd700" opacity="0.15"/>
+
+  <text x="400" y="62" text-anchor="middle" class="masthead" fill="#ffd700">THE SPRINT SHOW</text>
+  <text x="400" y="80" text-anchor="middle" class="host" fill="#d4a8ff">with Jordan B.</text>
+  <text x="400" y="95" text-anchor="middle" class="tagline" fill="#a080c0">"Where every bug is a feature in disguise"</text>
+
+  <!-- Meta line -->
+  <rect x="25" y="115" width="750" height="20" fill="#f0e8f5"/>
+  <text x="35" y="128" class="meta">Season 2 | Episode 14 | March 2026</text>
+  <text x="765" y="128" text-anchor="end" class="meta">Filmed before a live studio audience of Team Product</text>
+
+  <!-- ON AIR badge -->
+  <rect x="720" y="35" width="48" height="22" rx="3" fill="#cc0000"/>
+  <text x="744" y="50" text-anchor="middle" fill="#fff" font-size="10" font-family="Arial" font-weight="bold">ON AIR</text>
+
+  <!-- ==================== OPENING MONOLOGUE ==================== -->
+  <rect x="25" y="140" width="750" height="250" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="400" y="165" text-anchor="middle" class="section-header" fill="#2a1a4e">OPENING MONOLOGUE</text>
+  <line x1="290" y1="170" x2="510" y2="170" stroke="#ffd700" stroke-width="1"/>
+
+  <rect x="40" y="180" width="720" height="50" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="400" y="200" text-anchor="middle" class="headline-small" fill="#2a1a4e">LADIES AND GENTLEMEN, WE SURVIVED DEMO DAY</text>
+  <text x="400" y="220" text-anchor="middle" class="filled-small" fill="#6a3d9a">[thunderous applause]</text>
+
+  <rect x="40" y="240" width="420" height="135" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="55" y="258" class="filled">So get this - we had our big stakeholder demo on Thursday.</text>
+  <text x="55" y="271" class="filled">Everything was going great. The slides were polished, the</text>
+  <text x="55" y="284" class="filled">prototype was working, Jordan was wearing a clean shirt for</text>
+  <text x="55" y="297" class="filled">once. And then... [dramatic pause] ...the WiFi went down.</text>
+  <text x="55" y="310" class="filled">Not just our WiFi. The entire building's WiFi. In the middle</text>
+  <text x="55" y="323" class="filled">of a live demo of our CLOUD-BASED product. You can't make</text>
+  <text x="55" y="336" class="filled">this stuff up. But Lisa pulled out her phone, hotspotted the</text>
+  <text x="55" y="349" class="filled">laptop, and we finished the demo on 4G. The stakeholders</text>
+  <text x="55" y="362" class="filled">were so impressed by the "seamless failover" that they didn't</text>
+  <text x="55" y="375" class="filled">even notice. Lisa, take a bow.</text>
+
+  <!-- Applause-o-meter -->
+  <rect x="480" y="240" width="280" height="135" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="620" y="268" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#2a1a4e">APPLAUSE-O-METER</text>
+  <rect x="500" y="280" width="240" height="25" rx="12" fill="#e8e0f0" stroke="#d4a8ff"/>
+  <!-- Filled meter bar -->
+  <rect x="501" y="281" width="210" height="23" rx="11" fill="url(#meterGrad)"/>
+  <text x="510" y="296" font-size="8" fill="#666" font-family="Arial">crickets</text>
+  <text x="730" y="296" text-anchor="end" font-size="8" fill="#666" font-family="Arial">standing ovation</text>
+  <!-- Arrow marker near standing ovation end -->
+  <polygon points="705,275 710,280 700,280" fill="#cc0000"/>
+  <line x1="705" y1="275" x2="705" y2="270" stroke="#cc0000" stroke-width="2"/>
+  <text x="705" y="265" text-anchor="middle" font-size="8" font-family="Arial" fill="#cc0000" font-weight="bold">HERE!</text>
+  <text x="620" y="330" text-anchor="middle" class="filled-small">Post-demo high. Lisa's hotspot</text>
+  <text x="620" y="343" text-anchor="middle" class="filled-small">save got a genuine round of</text>
+  <text x="620" y="356" text-anchor="middle" class="filled-small">applause from stakeholders.</text>
+
+  <!-- ==================== SECONDARY ==================== -->
+  <line x1="25" y1="395" x2="775" y2="395" stroke="#2a1a4e" stroke-width="0.5"/>
+
+  <!-- Tonight's Guest -->
+  <rect x="25" y="400" width="245" height="200" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="147" y="420" text-anchor="middle" class="section-header" fill="#2a1a4e">TONIGHT'S GUEST</text>
+  <rect x="35" y="430" width="225" height="30" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="147" y="442" text-anchor="middle" class="filled-title">The New Dashboard</text>
+  <text x="147" y="455" text-anchor="middle" class="filled-small">From Wireframe to "Wow"</text>
+  <rect x="35" y="470" width="225" height="120" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="45" y="485" class="filled-small">Tonight's guest is a feature that started</text>
+  <text x="45" y="497" class="filled-small">as a napkin sketch in a coffee shop and</text>
+  <text x="45" y="509" class="filled-small">somehow became the thing our CEO shows</text>
+  <text x="45" y="521" class="filled-small">to investors. The new analytics dashboard</text>
+  <text x="45" y="533" class="filled-small">shipped this sprint with real-time data,</text>
+  <text x="45" y="545" class="filled-small">custom filters, and - the crowd goes wild</text>
+  <text x="45" y="557" class="filled-small">- dark mode. Three sprints of work. Two</text>
+  <text x="45" y="569" class="filled-small">design pivots. One moment of "should we</text>
+  <text x="45" y="581" class="filled-small">just use a table?" we're glad we overcame.</text>
+
+  <!-- Desk Bit -->
+  <rect x="277" y="400" width="245" height="200" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="400" y="420" text-anchor="middle" class="section-header" fill="#2a1a4e">DESK BIT</text>
+  <rect x="287" y="430" width="225" height="30" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="400" y="445" text-anchor="middle" class="filled-title">"Is It a Bug or a Feature?"</text>
+  <text x="400" y="457" text-anchor="middle" class="filled-small">Segment</text>
+  <rect x="287" y="470" width="225" height="120" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="297" y="485" class="filled-small">Tonight's contestant: the search bar that</text>
+  <text x="297" y="497" class="filled-small">autocompletes based on OTHER users'</text>
+  <text x="297" y="509" class="filled-small">searches. Filed as a privacy bug by QA.</text>
+  <text x="297" y="521" class="filled-small">Loved by the PM who called it</text>
+  <text x="297" y="533" class="filled-small">"collaborative discovery." The verdict?</text>
+  <text x="297" y="545" class="filled-small">Bug. Definitely a bug. But we're keeping</text>
+  <text x="297" y="557" class="filled-small">it for the beta because the PM made a</text>
+  <text x="297" y="569" class="filled-small">compelling slide about it.</text>
+
+  <!-- Audience Q&A -->
+  <rect x="529" y="400" width="246" height="200" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="652" y="420" text-anchor="middle" class="section-header" fill="#2a1a4e">AUDIENCE Q&amp;A</text>
+  <rect x="539" y="430" width="226" height="30" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="652" y="449" text-anchor="middle" class="filled-title">Question from the audience</text>
+  <rect x="539" y="470" width="226" height="120" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="549" y="485" class="filled-small">Q: "When are we going to address the</text>
+  <text x="549" y="497" class="filled-small">elephant in the room - our test coverage</text>
+  <text x="549" y="509" class="filled-small">is at 34%?"</text>
+  <text x="549" y="525" class="filled-small">A: [long silence] "We prefer to think of</text>
+  <text x="549" y="537" class="filled-small">it as 66% opportunity for improvement."</text>
+  <text x="549" y="553" class="filled-small">But seriously, it's on the roadmap. The</text>
+  <text x="549" y="565" class="filled-small">REAL roadmap, not the one we show</text>
+  <text x="549" y="577" class="filled-small">stakeholders. Next question.</text>
+
+  <!-- ==================== SMALL SECTIONS ==================== -->
+  <line x1="25" y1="605" x2="775" y2="605" stroke="#2a1a4e" stroke-width="0.5"/>
+
+  <!-- Top 5 List -->
+  <rect x="25" y="610" width="185" height="150" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="117" y="628" text-anchor="middle" class="section-header" fill="#2a1a4e">TOP 5 LIST</text>
+  <rect x="35" y="640" width="165" height="110" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="42" y="660" class="filled-list">5. Staging server down</text>
+  <text x="48" y="672" class="filled-list">during a client call</text>
+  <text x="42" y="688" class="filled-list">4. Jordan's face when</text>
+  <text x="48" y="700" class="filled-list">the WiFi died</text>
+  <text x="42" y="716" class="filled-list">3. Lisa's hotspot save</text>
+  <text x="42" y="730" class="filled-list">2. Dashboard going live</text>
+  <text x="42" y="744" class="filled-list" font-weight="bold">1. 34% test coverage</text>
+
+  <!-- Shoutout Segment -->
+  <rect x="217" y="610" width="185" height="150" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="310" y="628" text-anchor="middle" class="section-header" fill="#ffd700">SHOUTOUT SEGMENT</text>
+  <text x="310" y="641" text-anchor="middle" class="label">"And the award goes to..."</text>
+  <rect x="227" y="650" width="165" height="100" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="237" y="668" class="filled-small" font-weight="bold">LISA - for the hotspot heard</text>
+  <text x="237" y="681" class="filled-small" font-weight="bold">'round the world.</text>
+  <text x="237" y="700" class="filled-small">Runner-up: Kai, who refactored</text>
+  <text x="237" y="713" class="filled-small">the entire notification service</text>
+  <text x="237" y="726" class="filled-small">without telling anyone and it</text>
+  <text x="237" y="739" class="filled-small">just... worked.</text>
+
+  <!-- Studio Vibe (Mood) -->
+  <rect x="409" y="610" width="185" height="150" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="502" y="628" text-anchor="middle" class="section-header" fill="#2a1a4e">STUDIO VIBE</text>
+  <text x="502" y="641" text-anchor="middle" class="label">(Audience Energy)</text>
+  <rect x="419" y="650" width="165" height="100" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="502" y="672" text-anchor="middle" class="filled-title" fill="#cc0000">HYPE.</text>
+  <text x="429" y="690" class="filled-small">Post-demo energy is real. The</text>
+  <text x="429" y="703" class="filled-small">team is riding high. Slight</text>
+  <text x="429" y="716" class="filled-small">undercurrent of "we need to</text>
+  <text x="429" y="729" class="filled-small">slow down next sprint" but</text>
+  <text x="429" y="742" class="filled-small">nobody wants to say it yet.</text>
+
+  <!-- Coming Up Next Week -->
+  <rect x="601" y="610" width="174" height="150" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="688" y="628" text-anchor="middle" class="section-header" fill="#2a1a4e">NEXT WEEK</text>
+  <rect x="611" y="645" width="154" height="105" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="621" y="665" class="filled-small">Next episode features: User</text>
+  <text x="621" y="678" class="filled-small">onboarding redesign. Early</text>
+  <text x="621" y="691" class="filled-small">reviews suggest "ambitious."</text>
+  <text x="621" y="704" class="filled-small">The writers room is already</text>
+  <text x="621" y="717" class="filled-small">nervous.</text>
+  <text x="688" y="740" text-anchor="middle" class="label">Stay tuned...</text>
+
+  <!-- ==================== BOTTOM ==================== -->
+  <line x1="25" y1="765" x2="775" y2="765" stroke="#2a1a4e" stroke-width="0.5"/>
+
+  <!-- Commercial Break -->
+  <rect x="25" y="770" width="370" height="160" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="210" y="790" text-anchor="middle" class="section-header" fill="#2a1a4e">COMMERCIAL BREAK</text>
+  <text x="210" y="803" text-anchor="middle" class="label">(Needs, wants, and offers)</text>
+  <rect x="35" y="810" width="170" height="55" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="45" y="823" class="filled-small">TIRED of manual regression</text>
+  <text x="45" y="835" class="filled-small">testing? Try "Writing Actual</text>
+  <text x="45" y="847" class="filled-small">Tests"! Side effects: confidence,</text>
+  <text x="45" y="859" class="filled-small">sleep, fewer weekend deploys.</text>
+  <rect x="215" y="810" width="170" height="55" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="225" y="823" class="filled-small">FOR SALE: Slightly used feature</text>
+  <text x="225" y="835" class="filled-small">flags. 47 still active, 12 nobody</text>
+  <text x="225" y="847" class="filled-small">remembers what they do. Bulk</text>
+  <text x="225" y="859" class="filled-small">discount available.</text>
+  <rect x="35" y="870" width="345" height="50" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="210" y="892" text-anchor="middle" class="filled-small">SPONSORED BY:</text>
+  <text x="210" y="908" text-anchor="middle" class="filled-small" font-weight="bold">Coffee and Questionable Optimism</text>
+
+  <!-- Ratings & Reviews -->
+  <rect x="402" y="770" width="373" height="160" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="588" y="790" text-anchor="middle" class="section-header" fill="#2a1a4e">RATINGS &amp; REVIEWS</text>
+  <text x="588" y="803" text-anchor="middle" class="label">(Sprint as a show)</text>
+  <rect x="412" y="815" width="353" height="105" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="422" y="838" class="filled">Plot: 8/10    Acting: 9/10    Pacing: 6/10</text>
+  <text x="422" y="858" class="filled-small">(the last 3 days were a blur)</text>
+  <text x="422" y="880" class="filled">Special Effects: 10/10</text>
+  <text x="422" y="895" class="filled-small">(that dashboard animation though)</text>
+  <text x="422" y="912" class="filled" font-weight="bold">Would watch again: Y</text>
+
+  <!-- ==================== FOOTER ==================== -->
+  <line x1="25" y1="935" x2="775" y2="935" stroke="#2a1a4e" stroke-width="0.5"/>
+
+  <rect x="25" y="940" width="500" height="55" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="275" y="960" text-anchor="middle" class="section-header" fill="#ffd700">QUOTABLE MOMENT</text>
+  <rect x="35" y="970" width="480" height="20" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="275" y="984" text-anchor="middle" class="filled">"The WiFi died and Lisa became a legend." - Jordan, Thursday demo debrief</text>
+
+  <rect x="532" y="940" width="243" height="55" fill="#fff" stroke="#2a1a4e" stroke-width="0.5"/>
+  <text x="653" y="960" text-anchor="middle" class="section-header" fill="#2a1a4e">CREDITS</text>
+  <rect x="542" y="970" width="223" height="20" fill="#faf5ff" stroke="#d4a8ff" stroke-dasharray="4"/>
+  <text x="553" y="983" class="filled-small">Lisa (hero), Kai (ninja), stakeholders, Jordan's shirt</text>
+
+  <text x="400" y="1015" text-anchor="middle" class="meta">Produced at CloudCo Studios | Canned laughter provided by the QA team</text>
+  <text x="765" y="1070" text-anchor="end" class="meta">Episode 14 | That's a wrap!</text>
+
+  <!-- Star decorations -->
+  <text x="35" y="40" fill="#ffd700" font-size="16">*</text>
+  <text x="50" y="55" fill="#ffd700" font-size="10">*</text>
+  <text x="755" y="1065" fill="#ffd700" font-size="16">*</text>
+  <text x="740" y="1050" fill="#ffd700" font-size="10">*</text>
+
+  <text x="35" y="1035" class="label">Cast: Jordan, Lisa, Kai, Nina, Omar &amp; Team Product | Host: Jordan B. | Producer: Team Product</text>
+</svg>

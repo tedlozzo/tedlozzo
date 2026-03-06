@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" width="800" height="1100">
+  <defs>
+    <style>
+      .masthead { font-family: 'Times New Roman', Georgia, serif; font-size: 48px; font-weight: bold; }
+      .tagline { font-family: 'Times New Roman', Georgia, serif; font-size: 12px; font-style: italic; }
+      .date { font-family: 'Times New Roman', Georgia, serif; font-size: 10px; }
+      .section-header { font-family: 'Times New Roman', Georgia, serif; font-size: 14px; font-weight: bold; text-transform: uppercase; }
+      .headline-main { font-family: 'Times New Roman', Georgia, serif; font-size: 28px; font-weight: bold; }
+      .headline-sub { font-family: 'Times New Roman', Georgia, serif; font-size: 13px; font-style: italic; }
+      .headline-small { font-family: 'Times New Roman', Georgia, serif; font-size: 13px; font-weight: bold; }
+      .body-text { font-family: 'Times New Roman', Georgia, serif; font-size: 10px; }
+      .body-text-small { font-family: 'Times New Roman', Georgia, serif; font-size: 9px; }
+      .byline { font-family: 'Times New Roman', Georgia, serif; font-size: 9px; font-style: italic; }
+      .label { font-family: Arial, sans-serif; font-size: 9px; fill: #666; }
+      .classified-header { font-family: 'Times New Roman', Georgia, serif; font-size: 10px; font-weight: bold; }
+      .classified-text { font-family: 'Times New Roman', Georgia, serif; font-size: 9px; }
+      .stat-number { font-family: 'Times New Roman', Georgia, serif; font-size: 22px; font-weight: bold; }
+      .stat-label { font-family: 'Times New Roman', Georgia, serif; font-size: 8px; }
+      .quote-text { font-family: 'Times New Roman', Georgia, serif; font-size: 11px; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Background - aged newspaper -->
+  <rect width="800" height="1100" fill="#f5f0e1"/>
+
+  <!-- Border -->
+  <rect x="15" y="15" width="770" height="1070" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="20" y="20" width="760" height="1060" fill="none" stroke="#000" stroke-width="1"/>
+
+  <!-- Masthead -->
+  <rect x="25" y="25" width="750" height="80" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="400" y="65" text-anchor="middle" class="masthead">THE DEPLOY DAILY</text>
+  <text x="400" y="82" text-anchor="middle" class="tagline">"Breaking builds since 2024"</text>
+
+  <!-- Date line -->
+  <line x1="25" y1="105" x2="775" y2="105" stroke="#000" stroke-width="2"/>
+  <text x="35" y="100" class="date">Sprint 23 Edition | March 2026</text>
+  <text x="765" y="100" text-anchor="end" class="date">Platform Team | Acme Corp</text>
+
+  <!-- Price badge -->
+  <circle cx="750" cy="55" r="20" fill="#000"/>
+  <text x="750" y="50" text-anchor="middle" fill="#fff" font-size="6" font-family="Arial">FREE*</text>
+  <text x="750" y="59" text-anchor="middle" fill="#fff" font-size="5" font-family="Arial">(*CI mins</text>
+  <text x="750" y="67" text-anchor="middle" fill="#fff" font-size="5" font-family="Arial">not incl.)</text>
+
+  <!-- ==================== FRONT PAGE ==================== -->
+  <rect x="25" y="110" width="750" height="280" fill="#fff" stroke="#000" stroke-width="1"/>
+
+  <text x="400" y="145" text-anchor="middle" class="section-header">FRONT PAGE</text>
+  <line x1="300" y1="150" x2="500" y2="150" stroke="#000" stroke-width="1"/>
+
+  <!-- Main headline -->
+  <rect x="40" y="160" width="720" height="60" fill="#fff" stroke="none"/>
+  <text x="400" y="183" text-anchor="middle" class="headline-main">AUTHENTICATION REWRITE SHIPS</text>
+  <text x="400" y="208" text-anchor="middle" class="headline-main">TO PRODUCTION</text>
+  <text x="400" y="222" text-anchor="middle" class="headline-sub">Team celebrates after 3-sprint marathon, only 2 rollbacks</text>
+
+  <!-- Main article body -->
+  <rect x="40" y="232" width="350" height="145" fill="#fff" stroke="#000" stroke-width="0.5"/>
+  <text x="50" y="245" class="byline">By Sarah K. | Witnessed by the on-call rotation</text>
+  <line x1="50" y1="250" x2="380" y2="250" stroke="#ccc" stroke-width="0.5"/>
+  <text x="50" y="264" class="body-text">In what analysts are calling "actually pretty smooth,"</text>
+  <text x="50" y="276" class="body-text">the Platform Team successfully deployed the new</text>
+  <text x="50" y="288" class="body-text">authentication service to production on Tuesday. The</text>
+  <text x="50" y="300" class="body-text">rewrite, which began as "a quick cleanup" three sprints</text>
+  <text x="50" y="312" class="body-text">ago, survived scope changes, a brief detour into OAuth2</text>
+  <text x="50" y="324" class="body-text">confusion, and one memorable Friday deploy that nobody</text>
+  <text x="50" y="336" class="body-text">wants to talk about.</text>
+  <text x="50" y="352" class="body-text">"We learned a lot," said the tech lead, diplomatically.</text>
+  <text x="50" y="368" class="body-text">Full coverage continues on Page 2 (there is no Page 2).</text>
+
+  <!-- Diagram area - Confidence Over Time graph -->
+  <rect x="410" y="232" width="350" height="145" fill="#e8e8e8" stroke="#000" stroke-width="0.5"/>
+  <text x="585" y="250" text-anchor="middle" class="section-header" font-size="10">CONFIDENCE OVER TIME</text>
+
+  <!-- Y axis -->
+  <line x1="440" y1="260" x2="440" y2="360" stroke="#333" stroke-width="1"/>
+  <text x="435" y="268" text-anchor="end" class="body-text-small">High</text>
+  <text x="435" y="310" text-anchor="end" class="body-text-small">Med</text>
+  <text x="435" y="358" text-anchor="end" class="body-text-small">Low</text>
+
+  <!-- X axis -->
+  <line x1="440" y1="360" x2="740" y2="360" stroke="#333" stroke-width="1"/>
+  <text x="480" y="372" text-anchor="middle" class="body-text-small">Sprint 21</text>
+  <text x="570" y="372" text-anchor="middle" class="body-text-small">Sprint 22</text>
+  <text x="660" y="372" text-anchor="middle" class="body-text-small">Sprint 23</text>
+  <text x="730" y="372" text-anchor="middle" class="body-text-small">Ship!</text>
+
+  <!-- The line graph - goes up, crashes, recovers, dips, ends high -->
+  <polyline points="455,300 480,285 510,340 540,350 570,310 600,295 630,330 660,290 690,275 720,265"
+            fill="none" stroke="#000" stroke-width="2"/>
+  <!-- Key moments -->
+  <circle cx="510" cy="340" r="3" fill="#000"/>
+  <text x="510" y="352" text-anchor="middle" font-size="7" font-family="Arial" fill="#666">OAuth2</text>
+  <text x="510" y="359" text-anchor="middle" font-size="7" font-family="Arial" fill="#666">confusion</text>
+  <circle cx="630" cy="330" r="3" fill="#000"/>
+  <text x="630" y="345" text-anchor="middle" font-size="7" font-family="Arial" fill="#666">Friday</text>
+  <text x="630" y="352" text-anchor="middle" font-size="7" font-family="Arial" fill="#666">deploy</text>
+  <circle cx="720" cy="265" r="4" fill="#000"/>
+
+  <!-- ==================== SECONDARY STORIES ==================== -->
+  <line x1="25" y1="395" x2="775" y2="395" stroke="#000" stroke-width="1"/>
+
+  <!-- Feature -->
+  <rect x="25" y="400" width="245" height="200" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="147" y="420" text-anchor="middle" class="section-header">FEATURE</text>
+  <rect x="35" y="430" width="225" height="30" fill="#fff" stroke="none"/>
+  <text x="147" y="448" text-anchor="middle" class="headline-small">New Monitoring Dashboard</text>
+  <text x="147" y="460" text-anchor="middle" class="headline-small">Goes Live</text>
+  <rect x="35" y="468" width="225" height="122" fill="#fff" stroke="none"/>
+  <text x="45" y="482" class="body-text">The team can now see exactly how</text>
+  <text x="45" y="494" class="body-text">many errors we're ignoring.</text>
+  <text x="45" y="510" class="body-text">Grafana panels were lovingly</text>
+  <text x="45" y="522" class="body-text">hand-crafted by Alex, who may</text>
+  <text x="45" y="534" class="body-text">never want to look at another</text>
+  <text x="45" y="546" class="body-text">YAML file.</text>
+  <text x="45" y="564" class="byline">- Alex &amp; the Observability Squad</text>
+
+  <!-- Tech Corner -->
+  <rect x="277" y="400" width="245" height="200" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="400" y="420" text-anchor="middle" class="section-header">TECH CORNER</text>
+  <rect x="287" y="430" width="225" height="30" fill="#fff" stroke="none"/>
+  <text x="400" y="448" text-anchor="middle" class="headline-small">Database Migration:</text>
+  <text x="400" y="460" text-anchor="middle" class="headline-small">The Sequel</text>
+  <rect x="287" y="468" width="225" height="122" fill="#fff" stroke="none"/>
+  <text x="297" y="482" class="body-text">The migration that was supposed</text>
+  <text x="297" y="494" class="body-text">to take 10 minutes took 3 hours.</text>
+  <text x="297" y="510" class="body-text">Lessons learned: always check</text>
+  <text x="297" y="522" class="body-text">the row count before ALTER</text>
+  <text x="297" y="534" class="body-text">TABLE.</text>
+  <text x="297" y="554" class="byline">"Never again." - Priya, DBA</text>
+
+  <!-- Opinion -->
+  <rect x="529" y="400" width="246" height="200" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="652" y="420" text-anchor="middle" class="section-header">OPINION</text>
+  <rect x="539" y="430" width="226" height="30" fill="#fff" stroke="none"/>
+  <text x="652" y="448" text-anchor="middle" class="headline-small">Dear Editor: Meeting-Free</text>
+  <text x="652" y="460" text-anchor="middle" class="headline-small">Wednesdays Changed My Life</text>
+  <rect x="539" y="468" width="226" height="122" fill="#fff" stroke="none"/>
+  <text x="549" y="482" class="body-text">As someone who codes for a</text>
+  <text x="549" y="494" class="body-text">living, having one day without</text>
+  <text x="549" y="506" class="body-text">context switches is revolutionary.</text>
+  <text x="549" y="522" class="body-text">My IDE barely recognized me.</text>
+  <text x="549" y="542" class="byline">- Chen, Senior Engineer</text>
+  <text x="549" y="556" class="byline">(Opinions are the author's own and</text>
+  <text x="549" y="566" class="byline">do not reflect sprint commitments)</text>
+
+  <!-- ==================== SMALL STORIES ==================== -->
+  <line x1="25" y1="605" x2="775" y2="605" stroke="#000" stroke-width="1"/>
+
+  <rect x="25" y="610" width="185" height="150" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="117" y="628" text-anchor="middle" class="section-header">IN BRIEF</text>
+  <rect x="35" y="640" width="165" height="110" fill="#fff" stroke="none"/>
+  <text x="45" y="656" class="body-text">CI pipeline flakiness down</text>
+  <text x="45" y="668" class="body-text">40% after timeout</text>
+  <text x="45" y="680" class="body-text">adjustments.</text>
+  <text x="45" y="698" class="body-text">Still not zero.</text>
+  <text x="45" y="714" class="body-text">Never zero.</text>
+
+  <rect x="217" y="610" width="185" height="150" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="310" y="628" text-anchor="middle" class="section-header">KUDOS</text>
+  <rect x="227" y="640" width="165" height="110" fill="#fff" stroke="none"/>
+  <text x="237" y="656" class="body-text">Marcus fixed the memory</text>
+  <text x="237" y="668" class="body-text">leak at 11pm on Thursday.</text>
+  <text x="237" y="684" class="body-text">Not because he was on-call.</text>
+  <text x="237" y="700" class="body-text">Because he's Marcus.</text>
+  <text x="237" y="720" class="byline">You're a legend.</text>
+
+  <rect x="409" y="610" width="185" height="150" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="502" y="628" text-anchor="middle" class="section-header">WEATHER</text>
+  <text x="502" y="642" text-anchor="middle" class="label">(Team Mood Report)</text>
+  <rect x="419" y="655" width="165" height="95" fill="#fff" stroke="none"/>
+  <text x="502" y="680" text-anchor="middle" class="body-text">Mostly sunny with</text>
+  <text x="502" y="695" text-anchor="middle" class="body-text">occasional merge conflicts.</text>
+  <text x="502" y="716" text-anchor="middle" class="body-text">Forecast: clear skies</text>
+  <text x="502" y="731" text-anchor="middle" class="body-text">ahead.</text>
+
+  <rect x="601" y="610" width="174" height="150" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="688" y="628" text-anchor="middle" class="section-header">COMING SOON</text>
+  <rect x="611" y="640" width="154" height="110" fill="#fff" stroke="none"/>
+  <text x="621" y="656" class="body-text">API v3 migration begins</text>
+  <text x="621" y="668" class="body-text">next sprint.</text>
+  <text x="621" y="684" class="body-text">Estimated effort:</text>
+  <text x="621" y="700" class="body-text">"two weeks"</text>
+  <text x="621" y="720" class="byline">(we know what that means)</text>
+
+  <!-- ==================== BOTTOM ==================== -->
+  <line x1="25" y1="765" x2="775" y2="765" stroke="#000" stroke-width="1"/>
+
+  <!-- Classifieds -->
+  <rect x="25" y="770" width="370" height="160" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="210" y="790" text-anchor="middle" class="section-header">CLASSIFIEDS</text>
+
+  <!-- WANTED -->
+  <rect x="35" y="800" width="170" height="55" fill="#f9f9f0" stroke="#ccc" stroke-width="0.5"/>
+  <text x="45" y="814" class="classified-header">WANTED:</text>
+  <text x="45" y="826" class="classified-text">Someone who actually enjoys</text>
+  <text x="45" y="837" class="classified-text">writing Terraform. Serious</text>
+  <text x="45" y="848" class="classified-text">inquiries only.</text>
+
+  <!-- FOR TRADE -->
+  <rect x="215" y="800" width="170" height="55" fill="#f9f9f0" stroke="#ccc" stroke-width="0.5"/>
+  <text x="225" y="814" class="classified-header">FOR TRADE:</text>
+  <text x="225" y="826" class="classified-text">3 story points of capacity</text>
+  <text x="225" y="837" class="classified-text">for 1 answered Slack message</text>
+  <text x="225" y="848" class="classified-text">before noon.</text>
+
+  <!-- LOST -->
+  <rect x="35" y="862" width="170" height="55" fill="#f9f9f0" stroke="#ccc" stroke-width="0.5"/>
+  <text x="45" y="876" class="classified-header">LOST:</text>
+  <text x="45" y="888" class="classified-text">My work-life balance. Last</text>
+  <text x="45" y="899" class="classified-text">seen pre-standup Monday.</text>
+
+  <!-- FREE -->
+  <rect x="215" y="862" width="170" height="55" fill="#f9f9f0" stroke="#ccc" stroke-width="0.5"/>
+  <text x="225" y="876" class="classified-header">FREE:</text>
+  <text x="225" y="888" class="classified-text">Unsolicited opinions about</text>
+  <text x="225" y="899" class="classified-text">microservices. Unlimited supply.</text>
+
+  <!-- Sports/Metrics -->
+  <rect x="402" y="770" width="373" height="160" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="588" y="790" text-anchor="middle" class="section-header">SPORTS &amp; SCORES</text>
+  <text x="588" y="803" text-anchor="middle" class="label">(Sprint Metrics)</text>
+
+  <!-- Stats grid -->
+  <text x="445" y="835" text-anchor="middle" class="stat-number">18</text>
+  <text x="445" y="847" text-anchor="middle" class="stat-label">Tickets Closed</text>
+
+  <text x="530" y="835" text-anchor="middle" class="stat-number">27</text>
+  <text x="530" y="847" text-anchor="middle" class="stat-label">PRs Merged</text>
+
+  <text x="615" y="835" text-anchor="middle" class="stat-number">9</text>
+  <text x="615" y="847" text-anchor="middle" class="stat-label">Bugs Squashed</text>
+
+  <text x="700" y="835" text-anchor="middle" class="stat-number">34</text>
+  <text x="700" y="847" text-anchor="middle" class="stat-label">Code Reviews</text>
+
+  <line x1="420" y1="855" x2="757" y2="855" stroke="#ccc" stroke-width="0.5"/>
+
+  <text x="500" y="880" text-anchor="middle" class="stat-number">312</text>
+  <text x="500" y="892" text-anchor="middle" class="stat-label">Coffees Consumed</text>
+
+  <text x="660" y="880" text-anchor="middle" class="stat-number">14</text>
+  <text x="660" y="892" text-anchor="middle" class="stat-label">"It works on my machine"</text>
+
+  <line x1="420" y1="900" x2="757" y2="900" stroke="#ccc" stroke-width="0.5"/>
+  <text x="588" y="918" text-anchor="middle" class="byline">MVP: Marcus (memory leak hero)</text>
+
+  <!-- ==================== FOOTER ==================== -->
+  <line x1="25" y1="935" x2="775" y2="935" stroke="#000" stroke-width="1"/>
+
+  <!-- Quote of the Sprint -->
+  <rect x="25" y="940" width="500" height="55" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="275" y="960" text-anchor="middle" class="section-header">QUOTE OF THE SPRINT</text>
+  <text x="275" y="978" text-anchor="middle" class="quote-text">"I'm not saying it's tech debt, but it's definitely tech debt."</text>
+  <text x="275" y="990" text-anchor="middle" class="byline">- Marcus, Tuesday standup</text>
+
+  <!-- Comics -->
+  <rect x="532" y="940" width="243" height="55" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="653" y="955" text-anchor="middle" class="section-header">COMICS</text>
+
+  <!-- Before/After comic -->
+  <text x="580" y="970" text-anchor="middle" class="body-text-small" font-weight="bold">BEFORE:</text>
+  <text x="580" y="982" text-anchor="middle" class="body-text-small">Estimate: 3 days</text>
+
+  <!-- Arrow -->
+  <text x="653" y="978" text-anchor="middle" font-size="14" font-family="Arial">&gt;</text>
+
+  <!-- After -->
+  <text x="726" y="970" text-anchor="middle" class="body-text-small" font-weight="bold">AFTER:</text>
+  <text x="726" y="982" text-anchor="middle" class="body-text-small">Actual: 3 sprints :)</text>
+
+  <!-- Footer text -->
+  <text x="400" y="1015" text-anchor="middle" class="date">Printed at Acme Corp HQ | We ship code and sometimes it ships us</text>
+  <text x="765" y="1070" text-anchor="end" class="date">Page 1 of 1 (we're agile, not a novel)</text>
+
+  <!-- Decorative corners -->
+  <path d="M 30 30 L 50 30 L 50 35 L 35 35 L 35 50 L 30 50 Z" fill="#000"/>
+  <path d="M 770 30 L 750 30 L 750 35 L 765 35 L 765 50 L 770 50 Z" fill="#000"/>
+  <path d="M 30 1070 L 50 1070 L 50 1065 L 35 1065 L 35 1050 L 30 1050 Z" fill="#000"/>
+  <path d="M 770 1070 L 750 1070 L 750 1065 L 765 1065 L 765 1050 L 770 1050 Z" fill="#000"/>
+
+  <!-- Staff line -->
+  <text x="35" y="1035" class="label">Staff Writers: Sarah, Alex, Marcus, Priya, Chen &amp; the whole Platform crew | Editor-in-Chief: The Sprint Board</text>
+</svg>
